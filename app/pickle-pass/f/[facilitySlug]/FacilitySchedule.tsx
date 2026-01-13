@@ -237,11 +237,12 @@ export default function FacilitySchedule({ facilitySlug }: { facilitySlug: strin
               position: "sticky",
               top: 0,
               zIndex: 1,
-              padding: "10px 0",
+              padding: "12px 16px",
+              borderRadius: 12,
               background: "linear-gradient(to bottom, rgba(255,255,255,0.98), rgba(255,255,255,0.85))",
               backdropFilter: "blur(6px)",
               borderBottom: "1px solid rgba(0,0,0,0.06)",
-              marginBottom: 12,
+              margin: "0 4px 12px",
               color: "rgba(0,0,0,0.9)",
             }}
           >

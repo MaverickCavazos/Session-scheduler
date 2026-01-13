@@ -89,8 +89,11 @@ export default async function FacilitySessionDetailsPage({
  
       <div style={{ marginTop: 14 }}>
         <SessionActions
-          bookHref={`/pickle-pass/sessions/${encodeURIComponent(session.id)}/book`}
-        />
+  bookHref={`/pickle-pass/sessions/${encodeURIComponent(session.id)}/book?facilitySlug=${encodeURIComponent(
+    facilitySlug
+  )}`}
+/>
+
 
       </div>
     </main>
